@@ -283,7 +283,6 @@ public class MovieActivity extends AppCompatActivity {
                         controller = new MediaController(MovieActivity.this);
                         videoView.setMediaController(controller);
                         controller.setAnchorView(videoView);
-
                     }
                 });
             }
